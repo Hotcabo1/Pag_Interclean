@@ -1,0 +1,1865 @@
+.sec-6{
+  width: 89%;
+}
+
+/* ---------------------------------- LOADER --------------------------------- */
+.loader-container{
+  background-color: #FFFFFF;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#loading {
+  background: url('../gif/V16.gif') no-repeat center center;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  z-index: 9999;
+  overflow: visible;
+}
+/* ---------------------------------- FIN LOADER --------------------------------- */
+
+#container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: -10%;
+}
+.bg {
+  /* background: url("../gif/MedidasWEB.gif") center; */
+  background-size: auto;
+  background-position-x: left;
+  background-repeat: no-repeat;   
+}
+.fond{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -3%;
+}
+.menu-1{
+  height: 60%;
+  /* Deghradado Menu */
+  /* background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.281)), to(rgba(255, 255, 255, 0)), color-stop(1,rgba(0, 0, 0, 0.651))); */
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.205)), to(rgba(255, 255, 255, 0)), color-stop(1,rgba(0, 0, 0, 0.363)));
+}
+.slider-1, .slider-2, .slider-3, .slider-4{
+	height: 85vh;
+	text-align: center;
+}
+.slider-cober {
+	height: 95vh;
+	text-align: center;
+}
+.slider-nos{
+  padding-top: 5%;
+	height: 85vh;
+	text-align: center;  
+}
+.slider-ser{
+  /* padding-top: 5%;
+	height: 85vh; */
+	text-align: center;  
+}
+.slider-emp{
+  padding-top: 100px;
+  height: 98vh;
+  text-align: center;
+}
+.slider-cot{
+  padding-top: 115px;
+  height: 98vh;
+  text-align: center;
+}
+.lSSlideWrapper{
+  height: 440px;
+}
+#menugral{
+  height: 25%;  
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.slider-6{
+  background-image: url("img/cotizaciones-01.jpg") center;
+} 
+.footer{
+
+	color:rgb(26, 69, 93);
+	text-align: center;
+	padding: 10px;
+}
+.logg{
+  margin-top: 10px;
+  width: 90%;
+  height:auto;
+}
+.map_ID-blue {
+  display: none;
+}
+
+.seccion1{
+  display: block;
+}
+.seccion2{
+
+  display: none;  
+}
+
+.nav-area-icono{
+  display: block;
+}
+
+#togglemovil{
+  display: none;
+}
+.busctrabTabl{
+  display: none;
+}
+
+
+/* ------------------------------------ MEDIA CELULAR ------------------------------------------------- */
+@media screen and (min-device-width : 320px) and (max-device-width : 599px) {
+  .slider-emp {
+    padding-top: 0px;
+    height: auto;
+    text-align: center;
+  }
+  .slider-cot {
+    padding-top: 0px;
+    height: auto;
+    text-align: center;
+  }
+  .slider-ser {
+    padding-top: 0px;
+    height: auto;
+    text-align: center;
+  }
+  .emples {
+    -webkit-flex: none;
+  }
+  .seccion1{
+    display: none;
+  }
+  .seccion2{  
+    display: block;
+  }
+  .nav-area-icono{
+    display: none;
+  }
+  #togglemovil{
+    display: block;
+  }
+
+  #togglemovil{
+    display: block;
+  }
+  
+}
+/* ------------------------------------ FIN MEDIA CELULAR ------------------------------------------------- */
+
+/* ------------------------------------ MEDIA TABLET VERTICAL ------------------------------------------------- */
+/* @media screen and (min-device-width : 600px) and (max-device-width : 799px) {
+  
+} */
+/* ------------------------------------ FIN MEDIA TABLET VERTICAL ------------------------------------------------- */
+
+/* ------------------------------------ MEDIA LAPTOP ------------------------------------------------- */
+/* @media screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  
+} */
+/* ------------------------------------ FIN MEDIA LAPTOP ------------------------------------------------- */
+
+/* ------------------------------------ MEDIA DESKTOP ------------------------------------------------- */
+
+
+@media screen and (min-device-width : 800px) and (max-device-width : 1024px) {
+  .fond{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cels1 {
+    position: absolute;
+    margin-top: 1.4%;
+   }
+   .img-cobertura {
+     width: 68%;
+     margin-left: 73px;
+   }
+   .escudo{                    
+     margin-top: 110px;
+     margin-right: 78px;
+     width:150px;
+	   height:150px;    
+  }
+  .escudo_img{
+    background: transparent url();
+    z-index: 0;                 
+  } 
+ 
+  .map_ID{
+    display: none;
+  }
+  .map_ID-blue {
+    display: block;
+  }
+   #edo {
+    display: none;
+    
+  }
+
+  #tilt {
+    height: 190px;
+    width: 300px;
+    margin-top: 130px;
+    background-size: 84%;
+    margin-left: 140pxpx;
+  }
+  .slider-nos {
+    margin-bottom: 17%;
+    padding-top: 25%;
+  }
+  .slider-ser {    
+    padding-top: 10%;
+    height: 35vh;
+    text-align: center;
+    width: 95%;
+  }
+  .slider-emp {
+    margin-bottom: 9%;
+    padding-top: 83px;
+    height: 98vh;
+  }
+  .titempl{ 
+    margin-top: 146px;
+    font-size: 62px;
+   }
+   .LH {
+    border-top: 14px solid rgb(127, 164, 57);
+    max-width: 360px;
+    margin: 0px auto 0 auto;
+    border-radius: 10px;
+   }
+   .titledatos {
+    margin-top: 6px;
+    font-size: 45px;
+    width: 135%;
+    margin-left: -7%;
+  }
+  .titecots {
+    margin-top: 81px;
+    font-size: 67px;
+    margin-right: -22%;
+  }
+  #imgcot{
+    width: 53%;
+    height: auto;
+    margin-top: 27%;
+  }
+  #nostimg {
+    margin-top: 6%;
+ }
+ .slider-cot {
+  padding-top: 200px;
+  height: 100vh;
+  text-align: center;
+}
+
+.formcot {
+  margin-top: 24px;
+  width: 135%;
+}
+#busctrab{
+  display: none;
+ }
+
+ #empleo{
+  left: 21%;
+}
+
+ #nomemp,#telemp, #ciudademp,#estadoem, #estadoemp, #antemp, #nombre, #correo, #telefono, #mensaje{  
+  line-height: 1.4;
+  font-size: 17px;
+}
+.subtitledatos {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  right: 25%;
+  margin-right: -22%;
+}
+.formemp {
+  margin-top: 10px;
+  width: 115%;
+  margin-left: 5%;
+}
+
+#empleos { 
+  margin-top: 0px;
+  font-size: 118%;
+}
+
+#img-cot {
+  display: none;
+}
+#formcot {
+  left: 17%;  
+}
+#cotizacion { 
+  font-size: 175%;
+}
+.slider-mapa {
+  padding-top: 100px;
+  height: 101vh;
+}
+.cobertura {
+  padding-top: 170px;
+}
+.slider-ser {  
+  margin-bottom: 10%;
+}
+
+.topnav{
+  display: none;
+}
+#togglemovil {
+  display: block;
+}
+#togglemovil {
+  margin-right: -19%;
+  margin-left: -28%;
+}
+.topnav a {
+  display: none;
+}
+
+.topnav a.active {
+  /* display: none;   */
+ /* color: rgb(4, 19, 107);*/
+}
+.topnav {
+  margin-left: auto;  
+}
+.topnav.responsive {
+  margin-top: 3px; 
+  border: 0;
+  margin-left: initial;
+  background: #d8d5d5;
+  border-radius: 33px;
+  width: 155%;
+ }
+ .topnav.responsive .icon {
+   position: absolute;
+   right: 0;
+   top: 0;
+   font-size: 600%;
+   left: 100%;
+ }
+ .topnav.responsive a {
+   float: none;
+   display: block;
+   text-align: left;
+   font-size: 30px;
+ }
+ .seccion2 {
+  display: block;
+}
+.seccion1 {
+  display: none;
+}
+#togglemovil {
+  display: block;
+}
+.nav-area-icono {
+  display: none;
+}
+#celularMov {
+  display: block;
+}
+.busctrabTabl{
+  display: block;
+}
+.nav-area-tel3 {
+  position: fixed;
+  top: auto;
+  width: 14%;
+  box-sizing: border-box;
+  transition: top .6s;
+  padding: 28px 1px 1px 13px;
+  overflow: hidden;
+  z-index: 1013;
+  margin-left: auto;
+  margin-top: 1%;
+  left: 73%;
+  height: auto;
+}
+#busctrabTabl{
+  right: 14%;
+}
+
+}
+
+@media screen and (min-device-width : 1121px) and (max-device-width : 1290px) {
+  .lgs {
+    margin-top: 2px;
+    width: 150px;
+    height: auto;
+    margin-left: 20px;
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: rgb(26, 69, 93);
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav {
+  margin-left: 0%;
+}
+
+.topnav a.active:hover {
+  font-size: 18px;  
+}
+.topnav a:hover {  
+  font-size: 21px;  
+  }
+  
+}
+
+/* ---------------------------------- LOADER --------------------------------- */
+.loader-container{
+  background-color: #FFFFFF;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#loading {
+  background: url('../gif/V15.gif') no-repeat center center;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  z-index: 9999;
+  overflow: visible;
+}
+/* ---------------------------------- FIN LOADER --------------------------------- */
+
+#container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: -10%;
+}
+.bg {
+  /* background: url("../gif/MedidasWEB.gif") center; */
+  background-size: auto;
+  background-position-x: left;
+  background-repeat: no-repeat;   
+}
+.fond{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -3%;
+}
+.menu-1{
+  height: 60%;
+  /* Deghradado Menu */
+  /* background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.281)), to(rgba(255, 255, 255, 0)), color-stop(1,rgba(0, 0, 0, 0.651))); */
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.205)), to(rgba(255, 255, 255, 0)), color-stop(1,rgba(0, 0, 0, 0.363)));
+}
+.slider-1, .slider-2, .slider-3, .slider-4{
+	height: 85vh;
+	text-align: center;
+}
+.slider-cober {
+	height: 95vh;
+	text-align: center;
+}
+.slider-nos{
+  padding-top: 5%;
+	height: 85vh;
+	text-align: center;  
+}
+.slider-ser{
+  /* padding-top: 5%; */
+	height: 85vh;
+	text-align: center; 
+  
+}
+.slider-emp{
+  padding-top: 100px;
+  height: 98vh;
+  text-align: center;
+}
+.slider-cot{
+  padding-top: 115px;
+  height: 98vh;
+  text-align: center;
+}
+.lSSlideWrapper{
+  height: 440px;
+}
+#menugral{
+  height: 25%;  
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.slider-6{
+  background-image: url("img/cotizaciones-01.jpg") center;
+} 
+.footer{
+
+	color:rgb(26, 69, 93);
+	text-align: center;
+	padding: 10px;
+}
+.logg{
+  margin-top: 10px;
+  width: 90%;
+  height:auto;
+}
+
+
+/* ------------------------------------ MEDIA CELULAR ------------------------------------------------- */
+@media screen and (min-device-width : 320px) and (max-device-width : 599px) {
+  .slider-emp {
+    padding-top: 17%;
+    height: auto;
+    text-align: center;
+}
+  .slider-cot {
+    padding-top: inherit;
+    height: auto;
+    text-align: center;
+  }
+  .slider-ser {
+    padding-top: 387px;
+    height: 0;
+    text-align: center;
+  }
+
+  .slider-nos {
+    padding-top: 38%;
+    height: 53vh;
+    text-align: center;
+  }
+
+  
+  .cobertura {
+    padding-top: 250px;
+}
+
+.ajustado {
+  position: fixed;
+  margin-top: -13px;
+  margin-left: 30px;
+}
+
+  .slider-ini {
+    padding-top: 270px;
+    height: 57vh;
+    
+  }
+  .emples {
+    -webkit-flex: none;
+  }
+  .img-cobertura {
+    width: 68%;
+    margin-left: 73px;
+  }
+  .escudo{                    
+    margin-top: 110px;
+    margin-right: 78px;
+    width:150px;
+    height:150px;    
+ }
+ .escudo_img{
+   background: transparent url();
+   z-index: 0;                 
+ } 
+ #tilt {
+  height: 190px;
+  width: 300px;
+  margin-top: 130px;
+  background-size: 84%;
+  margin-left: 140pxpx;
+}
+
+ .map_ID{
+   display: none;
+ }
+ .map_ID-blue {
+   display: block;
+ }
+  #edo {
+   display: none;
+   
+ }
+ .slider-mapa {
+  padding-top: 215px;
+  /* height: 85vh; */
+}
+
+
+}
+/* ------------------------------------ FIN MEDIA CELULAR ------------------------------------------------- */
+
+/* ------------------------------------ MEDIA TABLET VERTICAL ------------------------------------------------- */
+/* @media screen and (min-device-width : 600px) and (max-device-width : 799px) {
+  
+} */
+/* ------------------------------------ FIN MEDIA TABLET VERTICAL ------------------------------------------------- */
+
+/* ------------------------------------ MEDIA LAPTOP ------------------------------------------------- */
+/* @media screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  
+} */
+/* ------------------------------------ FIN MEDIA LAPTOP ------------------------------------------------- */
+
+/*  1024  a 1120
+    1121  a 1290    
+    1291  a 1365  
+*/
+
+
+/* ------------------------------------ MEDIA DESKTOP ------------------------------------------------- */
+
+@media screen and (min-device-width : 600px) and (max-device-width : 799px) {
+  .fond{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cels1 {
+    position: absolute;
+    margin-top: 1.4%;
+   }
+   .img-cobertura {
+     width: 68%;
+     margin-left: 73px;
+   }
+   .escudo{                    
+     margin-top: 110px;
+     margin-right: 78px;
+     width:150px;
+	   height:150px;    
+  }
+  .escudo_img{
+    background: transparent url();
+    z-index: 0;                 
+  } 
+ 
+  .map_ID{
+    display: none;
+  }
+  .map_ID-blue {
+    display: block;
+  }
+   #edo {
+    display: none;
+    
+  }
+
+  #tilt {
+    height: 190px;
+    width: 300px;
+    margin-top: 130px;
+    background-size: 84%;
+    margin-left: 140pxpx;
+  }
+  .slider-nos {
+    margin-bottom: 9%;
+    padding-top: 25%;
+  }
+  .slider-ser {
+    padding-top: 11%;
+    margin-bottom: 10%;
+    
+  }
+  .slider-emp {
+    margin-bottom: 9%;
+    padding-top: 88px;
+    height: 90vh;
+  }
+  .titempl{ 
+    margin-top: 146px;
+    font-size: 62px;
+   }
+   .LH {
+    border-top: 14px solid rgb(127, 164, 57);
+    max-width: 360px;
+    margin: 0px auto 0 auto;
+    border-radius: 10px;
+   }
+   .titledatos {
+    margin-top: 80px;
+    font-size: 92px;
+    width: 135%;
+    margin-left: -7%;
+  }
+  .titecots {
+    margin-top: 81px;
+    font-size: 70px;
+    margin-right: -27%;
+  }
+  #imgcot{
+    width: 53%;
+    height: auto;
+    margin-top: 27%;
+  }
+  #nostimg {
+    margin-top: 6%;
+ }
+ .slider-cot {
+  padding-top: 70px;
+  height: 100vh;
+  text-align: center;
+}
+
+.formcot {
+  margin-top: 24px;
+  width: 135%;
+}
+#busctrab{
+  display: none;
+ }
+
+ #empleo{
+  left: 21%;
+}
+
+ #nomemp,#telemp, #ciudademp,#estadoem, #estadoemp, #antemp, #nombre, #correo, #telefono, #mensaje{  
+  line-height: 2.7;
+  font-size: 20px;
+}
+.subtitledatos {
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  right: 25%;
+  margin-right: -22%;
+}
+.formemp {
+  margin-top: 49px;
+  width: 115%;
+  margin-left: 5%;
+}
+
+#empleos { 
+  margin-top: 23px;
+  font-size: 221%;
+}
+
+#img-cot {
+  display: none;
+}
+#formcot {
+  left: 17%;  
+}
+#cotizacion { 
+  font-size: 175%;
+}
+.slider-mapa {
+  padding-top: 100px;
+  height: 80vh;
+}
+.cobertura {
+  padding-top: 300px;
+}
+.slider-ser {
+  padding-top: 20%;
+  margin-bottom: 10%;
+}
+.nav-area-icono{
+  display: none;
+}
+
+#togglemovil {
+  display: block;
+}
+.seccion2 {
+  display: block;
+}
+.seccion1 {
+  display: none;
+}
+#control_map {
+  float: left;
+  width: 550px;
+  margin-top: 180px;
+  margin-bottom: 40px;
+  z-index: 999;
+}
+.nav-area-tel3 {
+  position: fixed;
+  top: auto;
+  width: 20%;
+  box-sizing: border-box;
+  transition: top .6s;
+  padding: 28px 1px 1px 13px;
+  overflow: hidden;
+  z-index: 1013;
+  margin-left: auto;
+  margin-top: 1%;
+  left: 67%;
+  height: auto;
+}
+.celular {
+  height: 120px;
+  width: 120px;
+}
+
+
+  
+}
+/* @media screen and (min-device-width : 800px) and (max-device-width : 1024px) {
+  /* .lgs {
+    margin-top: 2px;
+    width: 150px;
+    height: auto;
+    margin-left: 20px;
+    }
+    .topnav a {    
+      font-size: 14px;
+  }
+  .topnav a.active:hover {
+    font-size: 16px;  
+  }
+  .topnav a:hover {  
+    font-size: 19px;  
+    } 
+} */
+@media screen and (min-device-width : 1024px) and (max-device-width : 1120px) {
+
+  .fond{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cels1 {
+    position: absolute;
+    margin-top: 1.4%;
+   }
+   .img-cobertura {
+     width: 68%;
+     margin-left: 73px;
+   }
+   .escudo{                    
+     margin-top: 110px;
+     margin-right: 78px;
+     width:150px;
+	   height:150px;    
+  }
+  .escudo_img{
+    background: transparent url();
+    z-index: 0;                 
+  } 
+ 
+  .map_ID{
+    display: none;
+  }
+  .map_ID-blue {
+    display: block;
+  }
+   #edo {
+    display: none;
+    
+  }
+
+  #tilt {
+    height: 190px;
+    width: 300px;
+    margin-top: 130px;
+    background-size: 84%;
+    margin-left: 140pxpx;
+  }
+  .slider-nos {
+    margin-bottom: 17%;
+    padding-top: 25%;
+  }
+  .slider-ser {    
+    padding-top: 10%;
+    height: 35vh;
+    text-align: center;
+    width: 95%;
+  }
+  .slider-emp {
+    margin-bottom: 9%;
+    padding-top: 90px;
+    height: 90vh;
+  }
+  .titempl{ 
+    margin-top: 146px;
+    font-size: 62px;
+   }
+   .LH {
+    border-top: 14px solid rgb(127, 164, 57);
+    max-width: 360px;
+    margin: 0px auto 0 auto;
+    border-radius: 10px;
+   }
+   .titledatos {
+    margin-top: 80px;
+    font-size: 69px;
+    width: 135%;
+    margin-left: -7%;
+  }
+  .titecots {
+    margin-top: 81px;
+    font-size: 68px;
+    margin-right: -22%;
+  }
+  #imgcot{
+    width: 53%;
+    height: auto;
+    margin-top: 27%;
+  }
+  #nostimg {
+    margin-top: 6%;
+ }
+ .slider-cot {
+  padding-top: 200px;
+  height: 100vh;
+  text-align: center;
+}
+
+.formcot {
+  margin-top: 24px;
+  width: 135%;
+}
+#busctrab{
+  display: none;
+ }
+
+ #empleo{
+  left: 21%;
+}
+
+ #nomemp,#telemp, #ciudademp,#estadoem, #estadoemp, #antemp, #nombre, #correo, #telefono, #mensaje{  
+  line-height: 1.7;
+  font-size: 17px;
+}
+.subtitledatos {
+  font-size: 31px;
+  font-family: 'Poppins', sans-serif;
+  right: 25%;
+  margin-right: -22%;
+}
+.formemp {
+  margin-top: 29px;
+  width: 115%;
+  margin-left: 5%;
+}
+
+#empleos { 
+  margin-top: 23px;
+  font-size: 150%;
+}
+
+#img-cot {
+  display: none;
+}
+#formcot {
+  left: 17%;  
+}
+#cotizacion { 
+  font-size: 175%;
+}
+.slider-mapa {
+  padding-top: 100px;
+  height: 101vh;
+}
+.cobertura {
+  padding-top: 170px;
+}
+.slider-ser {  
+  margin-bottom: 10%;
+}
+}
+@media screen and (min-device-width : 1121px) and (max-device-width : 1290px) {
+  .lgs {
+    margin-top: 2px;
+    width: 150px;
+    height: auto;
+    margin-left: 20px;
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: rgb(26, 69, 93);
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav {
+  margin-left: 0%;
+}
+
+.topnav a.active:hover {
+  font-size: 18px;  
+}
+.topnav a:hover {  
+  font-size: 21px;  
+  }
+  
+}
+
+
+
+/* --------------------------------------------------TODO BIEN---------------------------------------------------------------- */
+/* --------------------------------------------------TODO BIEN---------------------------------------------------------------- */
+
+@media screen and (min-device-width : 1291px) and (max-device-width : 1366px) {
+  .fond{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* .cels1 {
+    position: absolute;
+    margin-top: 1.4%;
+   } */
+   .img-cobertura {
+     width: 68%;
+   }
+   .escudo{                    
+     margin-top: 110px;
+     margin-right: 78px;
+     width:150px;
+	   height:150px;    
+  }
+  .escudo_img{
+    background: transparent url(../img/estadosIC.png);
+    z-index: 9999;                 
+  }
+  .AGU{background-position: 1200px 600px;}
+  .BCN{background-position: 1050px 600px;}
+  .BCS{background-position: 900px 600px;}
+  .CAM{background-position: 750px 600px;}
+  .COA{background-position: 600px 600px;}
+  .COL{background-position: 450px 600px;}
+  .CHP{background-position: 300px 600px;}
+  .CHH{background-position: 150px 600px;}
+  .DIF{background-position: 1200px 450px;}
+  .DUR{background-position: 1050px 450px;}
+  .GUA{background-position: 900px 450px;}
+  .GRO{background-position: 750px 450px;}
+  .HID{background-position: 600px 450px;}
+  .JAL{background-position: 450px 450px;}
+  .MEX{background-position: 300px 450px;}
+  .MIC{background-position: 150px 450px;}
+  .MOR{background-position: 1200px 300px;}
+  .NAY{background-position: 1050px 300px;}
+  .NLE{background-position: 900px 300px;}
+  .OAX{background-position: 750px 300px;}
+  .PUE{background-position: 600px 300px;}
+  .QUE{background-position: 450px 300px;}
+  .ROO{background-position: 300px 300px;}
+  .SLP{background-position: 150px 300px;}
+  .SIN{background-position: 1200px 150px;}
+  .SON{background-position: 1050px 150px;}
+  .TAB{background-position: 900px 150px;}
+  .TAM{background-position: 750px 150px;}
+  .TLA{background-position: 600px 150px;}
+  .VER{background-position: 450px 150px;}
+  .YUC{background-position: 300px 150px;}
+  .ZAC{background-position: 150px 150px;}
+  
+  #edo {
+    position: absolute; 
+    top: 300px;
+    left: 160px;
+    font-size: 2.6em;
+    text-align:start;
+    width: 480px;
+  }
+  #tilt {
+    height: 190px;
+    width: 300px;
+    margin-top: 350px;
+    background-size: 84%;
+    margin-left: 88px;
+  }
+  .slider-nos {
+    margin-bottom: 9%;
+  }
+  .slider-ser {
+    padding-top: 7%;
+    margin-bottom: 10%;
+  }
+  .slider-emp {
+    margin-bottom: 1%;
+  }
+  .slider-cot {
+    margin-bottom: 9%;
+  }
+  .titempl{ 
+    margin-top: 15px;
+    font-size: 58px;
+   }
+   .LH {
+    border-top: 14px solid rgb(127, 164, 57);
+    max-width: 360px;
+    margin: 0px auto 0 auto;
+    border-radius: 10px;
+   }
+   .titledatos {
+    margin-top: 13%;
+  }
+  .titecots {
+    margin-top: 8%;
+    width: 90%;
+  }
+  .formcot {
+    width: 95%;
+  }
+  #imgcot {
+    margin-top: 7%;
+  }
+  .TitulosICS {
+    padding-top: 2%;
+  }
+  .TitulosIC {
+    padding-top: 9%;
+  }
+  #nostimg {
+    margin-top: 5%;
+  }
+}
+
+/* ------------------------------------ FIN MEDIA DESKTOP ------------------------------------------------- */
+
+/* ------------------------------------ MEDIA DESKTOP (ENTREGABLE) ------------------------------------------------- */
+@media screen and (min-device-width : 1367px) and (max-device-width : 1480px) {
+  .TitulosIC{
+    margin-left: 6rem;
+    width: 450px;
+    height: 90px;
+}
+.ajustado{
+  font-size: 50px;
+  letter-spacing: 10px;
+  position: fixed;
+ margin-top: -55px;
+ margin-left: 2rem;
+}
+
+.TitulosICS{
+  width: 450px;
+  height: 100px;
+  margin-left: 18rem;
+  box-shadow: 7px 6px 25px 11px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 7px 6px 25px 11px rgba(0,0,0,0.3);
+  -moz-box-shadow: 7px 6px 25px 11px rgba(0,0,0,0.3);
+}
+
+.tamañoletra{
+  font-size: 50px;
+  letter-spacing: 10px;
+  position: fixed;
+ margin-top: -25px;
+ margin-left: 2rem;
+}
+
+
+.titempl{ 
+  width: 29rem;
+  height: 6rem;
+  margin-left: 7rem;
+
+ }
+ .TextoTamaño{
+   font-size: 42px;
+  padding-top: 15px;
+  margin-top: -35px;
+ }
+
+ .titecots{ 
+  height: 5rem;
+  margin-left: 0rem;
+ }
+ .textoajustado{
+   font-size: 60px;
+  margin-top: -15px;
+ }
+
+
+  .fond{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* .cels1 {
+    position: absolute;
+    margin-top: 1.4%;
+   } */
+   .nav-area {
+     margin-left: 2%;
+   }
+   .img-cobertura {
+     width: 68%;
+   }
+   .escudo{                    
+     margin-top: 110px;
+     margin-right: 78px;
+     width:150px;
+	   height:150px;    
+  }
+  .escudo_img{
+    background: transparent url(../img/estadosIC.png);
+    z-index: 9999;                 
+  }
+  .AGU{background-position: 1200px 600px;}
+  .BCN{background-position: 1050px 600px;}
+  .BCS{background-position: 900px 600px;}
+  .CAM{background-position: 750px 600px;}
+  .COA{background-position: 600px 600px;}
+  .COL{background-position: 450px 600px;}
+  .CHP{background-position: 300px 600px;}
+  .CHH{background-position: 150px 600px;}
+  .DIF{background-position: 1200px 450px;}
+  .DUR{background-position: 1050px 450px;}
+  .GUA{background-position: 900px 450px;}
+  .GRO{background-position: 750px 450px;}
+  .HID{background-position: 600px 450px;}
+  .JAL{background-position: 450px 450px;}
+  .MEX{background-position: 300px 450px;}
+  .MIC{background-position: 150px 450px;}
+  .MOR{background-position: 1200px 300px;}
+  .NAY{background-position: 1050px 300px;}
+  .NLE{background-position: 900px 300px;}
+  .OAX{background-position: 750px 300px;}
+  .PUE{background-position: 600px 300px;}
+  .QUE{background-position: 450px 300px;}
+  .ROO{background-position: 300px 300px;}
+  .SLP{background-position: 150px 300px;}
+  .SIN{background-position: 1200px 150px;}
+  .SON{background-position: 1050px 150px;}
+  .TAB{background-position: 900px 150px;}
+  .TAM{background-position: 750px 150px;}
+  .TLA{background-position: 600px 150px;}
+  .VER{background-position: 450px 150px;}
+  .YUC{background-position: 300px 150px;}
+  .ZAC{background-position: 150px 150px;}
+  
+  #edo {
+    position: absolute; 
+    top: 300px;
+    left: 160px;
+    font-size: 2.6em;
+    text-align:start;
+    width: 480px;
+  }
+  #tilt {
+    height: 190px;
+    width: 300px;
+    margin-top: 344px;
+    background-size: 84%;
+    margin-left: 88px;
+  }
+  .slider-nos {
+    margin-bottom: 9%;
+  }
+  .slider-ser {
+    padding-top: 7%;
+    margin-bottom: 11%;
+  }
+  .slider-cot {
+    padding-top: 30px;
+    margin-bottom: 9%;
+  }
+  .slider-emp {
+    margin-bottom: 3%;
+  }
+  .titempl{ 
+    margin-top: 10%;
+    font-size: 58px;
+   }
+   .LH {
+    border-top: 14px solid rgb(127, 164, 57);
+    max-width: 360px;
+    margin: 0px auto 0 auto;
+    border-radius: 10px;
+   }
+   .titledatos {
+    margin-top: 20%;
+  }
+  .titecots {
+    margin-top: 22%;
+    width: 95%;
+  }
+  #imgcot {
+    margin-top: 14%;
+    width: 58%;
+    height: auto;
+  }
+  .TitulosIC {
+    padding-top: 10%;
+  }
+  #nostimg {
+    margin-top: 6%;
+  }
+  .TitulosICS {
+    padding-top: 4%;
+  }
+  #imgcemp {
+    width: 51%;
+    height: auto;
+  }
+}
+/* ------------------------------------ FIN MEDIA DESKTOP (ENTREGABLE) ------------------------------------------------- */
+@media screen and (min-device-width : 1481px) and (max-device-width : 1650px) {
+  .TitulosIC{
+    margin-left: 6rem;
+    width: 450px;
+    height: 90px;
+}
+.ajustado{
+  font-size: 50px;
+  letter-spacing: 10px;
+  position: fixed;
+ margin-top: -55px;
+ margin-left: 2rem;
+}
+
+.TitulosICS{
+  width: 450px;
+  height: 100px;
+  margin-left: 18rem;
+  box-shadow: 7px 6px 25px 11px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 7px 6px 25px 11px rgba(0,0,0,0.3);
+  -moz-box-shadow: 7px 6px 25px 11px rgba(0,0,0,0.3);
+}
+
+.tamañoletra{
+  font-size: 50px;
+  letter-spacing: 10px;
+  position: fixed;
+ margin-top: -25px;
+ margin-left: 2rem;
+}
+
+
+.titempl{ 
+  width: 29rem;
+  height: 6rem;
+  margin-left: 7rem;
+
+ }
+ .TextoTamaño{
+   font-size: 42px;
+  padding-top: 15px;
+  margin-top: -35px;
+ }
+
+ .titecots{ 
+  height: 5rem;
+  margin-left: 0rem;
+ }
+ .textoajustado{
+   font-size: 60px;
+  margin-top: -15px;
+ }
+  /* .cels1 {
+    position: absolute;
+    margin-top: 1.4%;
+   }
+   .celular{
+    
+    width: auto;
+  }
+  .lgs {
+    width: 185 px;
+    height: auto;
+  } */
+  /* .topnav {
+    margin-top: 3%;
+    margin-left: 7%;
+  } */
+  .nav-area {
+    margin-left: 2%;
+  }
+  .cobertura {
+    padding-top: 75px;
+  }
+  .escudo{                    
+    margin-top: 110px;
+    margin-right: 78px;
+    width:150px;
+    height:150px;    
+ }
+ .escudo_img{
+   background: transparent url(../img/estadosIC.png);
+   z-index: 9999;                 
+ }
+ .AGU{background-position: 1200px 600px;}
+ .BCN{background-position: 1050px 600px;}
+ .BCS{background-position: 900px 600px;}
+ .CAM{background-position: 750px 600px;}
+ .COA{background-position: 600px 600px;}
+ .COL{background-position: 450px 600px;}
+ .CHP{background-position: 300px 600px;}
+ .CHH{background-position: 150px 600px;}
+ .DIF{background-position: 1200px 450px;}
+ .DUR{background-position: 1050px 450px;}
+ .GUA{background-position: 900px 450px;}
+ .GRO{background-position: 750px 450px;}
+ .HID{background-position: 600px 450px;}
+ .JAL{background-position: 450px 450px;}
+ .MEX{background-position: 300px 450px;}
+ .MIC{background-position: 150px 450px;}
+ .MOR{background-position: 1200px 300px;}
+ .NAY{background-position: 1050px 300px;}
+ .NLE{background-position: 900px 300px;}
+ .OAX{background-position: 750px 300px;}
+ .PUE{background-position: 600px 300px;}
+ .QUE{background-position: 450px 300px;}
+ .ROO{background-position: 300px 300px;}
+ .SLP{background-position: 150px 300px;}
+ .SIN{background-position: 1200px 150px;}
+ .SON{background-position: 1050px 150px;}
+ .TAB{background-position: 900px 150px;}
+ .TAM{background-position: 750px 150px;}
+ .TLA{background-position: 600px 150px;}
+ .VER{background-position: 450px 150px;}
+ .YUC{background-position: 300px 150px;}
+ .ZAC{background-position: 150px 150px;}
+
+ #edo {
+  top: 330px;
+  left: 160px;
+}
+  .slider-nos {
+    margin-bottom: 2%;
+    height: 91vh;
+  }
+  .slider-ser {
+    margin-bottom: 7%;
+    padding-top: 7%;
+  }
+  .titecots {
+    margin-top: 11%;
+    width: 95%;
+  }
+  #imgcot {
+    margin-top: 2%;
+    width: 56%;
+    height: auto;
+  }
+  .TitulosIC {
+    padding-top: 8%;
+  }
+  #nostimg {
+    margin-top: 4%;
+  }
+  .slider-cot {
+    margin-bottom: 6%;
+    margin-top: 1%;
+  }
+  #control_map {
+    margin-left: 90px;
+  }
+  .TitulosICS {
+    padding-top: 3%;
+  }
+  .titempl {
+    margin-top: 10%;
+  }
+  #imgcemp {
+    width: 50%;
+    height: auto;
+  }
+}
+@media screen and (min-device-width : 1651px) and (max-device-width : 1820px) {
+
+  .TitulosIC{
+    margin-left: 9rem;
+    width: 500px;
+    height: 90px;
+}
+.ajustado{
+  font-size: 50px;
+  letter-spacing: 10px;
+  position: fixed;
+ margin-top: -48px;
+ margin-left: 3.8rem;
+}
+
+.TitulosICS{
+  width: 450px;
+  height: 80px;
+  margin-left: 18rem;
+  box-shadow: 7px 6px 25px 11px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 7px 6px 25px 11px rgba(0,0,0,0.3);
+  -moz-box-shadow: 7px 6px 25px 11px rgba(0,0,0,0.3);
+}
+
+.tamañoletra{
+  font-size: 55px;
+  letter-spacing: 10px;
+  position: fixed;
+ margin-top: -21px;
+ margin-left: 2rem;
+}
+
+
+.titempl{ 
+  width: 29rem;
+  height: 6rem;
+  margin-left: 10rem;
+
+ }
+ .TextoTamaño{
+   font-size: 42px;
+  padding-top: 15px;
+  margin-top: -35px;
+ }
+
+ .titecots{ 
+  height: 5rem;
+  width: 46rem;
+  margin-left: 1rem;
+ }
+ .textoajustado{
+   font-size: 60px;
+  margin-top: -15px;
+ }
+
+
+  .cels1 {
+    position: absolute;
+    margin-top: 1.4%;
+   }
+   .celular{
+    height: 117px; 
+    width: auto;
+  }
+  .lgs {
+    width: 185px;
+    height: auto;
+  }
+  /* .topnav {
+    margin-top: 3%;
+    margin-left: 10%;
+  } */
+  .nav-area {
+    margin-left: 1%;
+  }
+  .cobertura {
+    padding-top: 120px;
+  }
+  .slider-mapa {
+    padding-top: 70px;
+  }
+  .escudo{                    
+    margin-top: 110px;
+    margin-right: 158px; 
+    width:150px;
+    height:150px; 
+  }
+  .escudo_img{
+    background: transparent url(../img/estadosIC.png);
+    z-index: 9999;                 
+  }
+  .AGU{background-position: 1200px 600px;}
+  .BCN{background-position: 1050px 600px;}
+  .BCS{background-position: 900px 600px;}
+  .CAM{background-position: 750px 600px;}
+  .COA{background-position: 600px 600px;}
+  .COL{background-position: 450px 600px;}
+  .CHP{background-position: 300px 600px;}
+  .CHH{background-position: 150px 600px;}
+  .DIF{background-position: 1200px 450px;}
+  .DUR{background-position: 1050px 450px;}
+  .GUA{background-position: 900px 450px;}
+  .GRO{background-position: 750px 450px;}
+  .HID{background-position: 600px 450px;}
+  .JAL{background-position: 450px 450px;}
+  .MEX{background-position: 300px 450px;}
+  .MIC{background-position: 150px 450px;}
+  .MOR{background-position: 1200px 300px;}
+  .NAY{background-position: 1050px 300px;}
+  .NLE{background-position: 900px 300px;}
+  .OAX{background-position: 750px 300px;}
+  .PUE{background-position: 600px 300px;}
+  .QUE{background-position: 450px 300px;}
+  .ROO{background-position: 300px 300px;}
+  .SLP{background-position: 150px 300px;}
+  .SIN{background-position: 1200px 150px;}
+  .SON{background-position: 1050px 150px;}
+  .TAB{background-position: 900px 150px;}
+  .TAM{background-position: 750px 150px;}
+  .TLA{background-position: 600px 150px;}
+  .VER{background-position: 450px 150px;}
+  .YUC{background-position: 300px 150px;}
+  .ZAC{background-position: 150px 150px;}
+  #edo {
+    top: 390px;
+    left: 180px;
+  }
+  #tilt {
+    height: 300px;
+    width: 340px;
+    margin-top: 420px;
+    background-size: 98%;
+    margin-left: 113px;
+  }
+  .slider-nos {
+    padding-top: 9%;
+    margin-bottom: 6%;
+    margin-top: 2%;
+  }
+  .TitulosIC {
+    padding-bottom: 1%;
+    padding-top: 7%;
+}
+  .slider-ser {
+    margin-bottom: 4%;
+    padding-top: 9%;
+  }
+  .slider-emp {
+    padding-top: 7%;
+    height: 98vh;
+  }
+  .slider-cot {
+    padding-top: 8%;
+    height: 98vh;
+    margin-bottom: 6%;
+  }
+  .titecots {
+    margin-top: 80px;
+  }
+  #control_map {
+    margin-left: 90px;
+  }
+  #nomemp, #telemp, #ciudademp, #estadoem, #estadoemp, #antemp, #nombre, #correo, #telefono, #mensaje {
+    line-height: 2.1;
+    font-size: 1.2rem;
+  }
+  #empleos, #cotizacion {
+    font-size: 1.26rem;
+  }
+  label {
+    font-size: 1.05rem;
+    padding: 0.88rem;
+  }
+  #file-chosen {
+    margin-left: 1.3rem;
+    font-size: 1.1rem;
+  }
+  .titempl {
+    margin-top: 78px;
+  }
+  #imgcot {
+    width: 58%;
+    height: auto;
+    margin-top: 3%;
+  }
+  #imgcemp {
+    width: 52%;
+    height: auto;
+  }
+  .TitulosICS {
+    padding-top: 2%;
+  }
+}
+
+@media screen and (min-device-width : 1821px) and (max-device-width : 1950px) {
+
+  .TitulosIC{
+      margin-left: 10rem;
+      width: 650px;
+  }
+  .ajustado{
+    position: fixed;
+   margin-top: -15px;
+   margin-left: 80px;
+  }
+
+  .TitulosICS{
+    width: 550px;
+    height: 120px;
+    margin-left: 18rem;
+    box-shadow: 7px 6px 25px 11px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 7px 6px 25px 11px rgba(0,0,0,0.3);
+    -moz-box-shadow: 7px 6px 25px 11px rgba(0,0,0,0.3);
+  }
+
+  .titempl{ 
+    width: 32rem;
+    height: 6rem;
+    margin-left: 13rem;
+  
+   }
+   .TextoTamaño{
+     font-size: 52px;
+    padding-top: 15px;
+   }
+
+   .titecots{ 
+    width: 51rem;
+    height: 6rem;
+    margin-left: 1rem;
+   }
+   .textoajustado{
+     font-size: 70px;
+    margin-top: -5px;
+   }
+
+
+  .cels1 {
+    position: absolute;
+    margin-top: 1.4%;
+   }
+   .celular{
+    height: 120px; 
+    width: auto;
+  }
+  .lgs {
+    width: 195px;
+    height: auto;
+    margin-left: 60px;
+  }
+  .topnav {
+    margin-top: 3%;
+    margin-left: 0%;
+  }
+  .topnav a {
+    padding: 14px 19px;
+    font-size: 19.5px;
+  }
+  .social-icons {
+    margin: 25px;
+    padding: 25px;
+  }
+  /* .social-icons li a {
+    width: 60px;
+    height: auto;
+    line-height: 63px;
+  } */
+  .cobertura {
+    padding-top: 87px;
+  }
+  .img-cobertura {
+    width: 75%;
+    height: auto;
+  }
+  .slider-mapa {
+    padding-top: 70px;
+  }
+  #control_map {
+    margin-left: 130px;
+  }
+  .escudo{                    
+    margin-top: 100px;
+    margin-right: 98px; 
+  }
+  #edo {
+    top: 440px;
+    left: 270px;
+    font-size: 3.2em;
+    width: 528px;
+  }
+  #tilt {
+    height: 300px;
+    width: 340px;
+    margin-top: 490px;
+    background-size: 100%;
+    margin-left: 160px;
+  }
+  .slider-nos {
+    padding-top: 9%;
+    margin-bottom: 6%;
+  }
+  .TitulosIC {
+    /* padding-bottom: 3%; */
+    padding-top: 1%;
+    font-size: 76px;
+}
+.TextoIC {
+  font-size: 30px;
+}
+.TitulosICS {
+   font-size: 76px;
+   padding-bottom: 1.5%;
+}
+  .slider-ser {
+    margin-bottom: 3%;
+    padding-top: 9%;
+  }
+  .slider-emp {
+    padding-top: 7%;
+    height: 98vh;
+  }
+  .titempl{ 
+    font-size: 76px;
+   }
+   #nomemp, #telemp, #ciudademp, #estadoem, #estadoemp, #antemp, #nombre, #correo, #telefono, #mensaje {
+    line-height: 2.5;
+    font-size: 1.3rem;
+  }
+  #empleos, #cotizacion {
+    font-size: 1.5rem;
+  }
+  label {
+    font-size: 1.15rem;
+    padding: 1rem;
+  }
+  #file-chosen {
+    margin-left: 1.3rem;
+    font-size: 1.3rem;
+  }
+  .titledatos {
+    margin-top: 16%;
+    font-size: 50px;
+}
+  .slider-cot {
+    padding-top: 8%;
+    height: 98vh;
+    margin-bottom: 7%;
+  }
+  .titecots {
+    margin-top: 70px;
+    font-size: 76px;
+  }
+  #imgcot {
+    width: 61%;
+    height: auto;
+    margin-top: 1%;
+  }
+  #imgcemp {
+    width: 52%;
+    height: auto;
+  }
+  .TitulosICS {
+    padding-top: 1%;
+  }
+}
+
+
+

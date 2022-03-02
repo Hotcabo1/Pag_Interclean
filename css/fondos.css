@@ -1,0 +1,73 @@
+.finicio{
+    background-image: url('../img/fondo/inicio.png'); 
+
+}
+.fcobna{
+	background-image: url('../img/fondo/cobertura.png');
+    background-repeat: no-repeat;
+    background-size: 89%;
+    background-position-x: right;
+    background-position-y: -7px;
+    height: 98vh;
+}
+
+.fnosotros{
+    background-image: url('../img/fondo/nosotros.png'); 
+    background-repeat: no-repeat;
+    background-size: 89%;
+    background-position-x: left;
+    background-position-y: -7px;
+    height: 98vh;
+}
+.fempleo{
+    background-image: url('../img/fondo/empleo.png'); 
+    background-repeat: no-repeat;
+    background-size: 89%;
+    background-position-x: right;
+    background-position-y: 33px;
+    height: 100vh;
+}
+.fcotizaciones{
+    background-image: url('../img/fondo/cotizaciones.png');
+    background-repeat: no-repeat;
+    background-size: 89%;
+    background-position-x: left;
+    background-position-y: -7px;
+    height: 98vh; 
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 599px) {
+    .fcobna {
+        background-image: url('../img/fondo/cobertura.png');
+        background-repeat: no-repeat;
+        background-size: 94%;
+        background-position-x: 36px;
+        background-position-y: 107px;
+        height: 98vh;
+    }
+    .fnosotros {
+        background-image: url('../img/fondo/nosotros.png');
+        background-repeat: no-repeat;
+        background-size: 109%;
+        background-position-x: left;
+        background-position-y: 243px;
+        height: 98vh;
+    }
+    .fempleo {
+        background-image: url('../img/fondo/empleo.png');
+        background-repeat: no-repeat;
+        background-size: 168%;
+        background-position-x: right;
+        background-position-y: 211px;
+        height: 100vh;
+    }
+    .fcotizaciones {
+        background-image: url('../img/fondo/cotizaciones.png');
+        background-repeat: no-repeat;
+        background-size: 168%;
+        background-position-x: left;
+        background-position-y: 25px;
+        height: 98vh;
+    }
+}
+

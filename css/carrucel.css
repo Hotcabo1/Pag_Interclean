@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+
+.box{
+	width:345px;
+	-moz-width:345px;
+	height:450px;
+	-moz-height:450px;	
+	background-color:transparent;
+	-moz-background-color:transparent;
+	border-radius: 30px;
+	-moz-border-radius: 30px;
+
+	display: flex;
+	-moz-display: flex;
+	flex-direction: column;
+	-moz-flex-direction: column;
+	align-items: center;
+	-moz-align-items: center;
+	justify-content: space-between;
+	-moz-justify-content: space-between;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	margin: 20px 10px;
+	-moz-margin: 20px 10px;
+}
+.model{
+	height: 350px;
+	max-height: 50%;
+	max-width: 50%;
+}
+.details{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 250px;
+}
+.details p{
+	font-family: calibri;
+	font-weight: bold;
+	color:#6a6a74;
+	text-align: center;
+	margin-top: 0px;
+}
+.marvel{
+	color:#1a455d;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-family: bebas kai;
+	font-size: 25px;
+}
+.logo{
+	height: 60px;
+}
+.box:hover{
+	/* background-image: linear-gradient( rgb(200 201 204), white),url('../img/hojas.png'); */
+	background-image: url(../img/hoja-interclean.png),linear-gradient( rgb(200 201 204), white);
+	/* background-image: url('../img/hojas.png'); */
+	-moz-background-image: linear-gradient( rgb(200 201 204), white);	
+	transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform: scale(1.02);
+	-moz-transform: scale(1.02);
+	transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	background-size : 60px 100px, 500px 500px;
+	background-position:285px 310px,0px 0px;
+	background-repeat: no-repeat;
+	
+}
+.box:hover .marvel{
+	color:#fbfbfb;
+	-moz-color:#fbfbfb;
+	transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+}
+
+/* ------------------- FLIP ------------------------- */
+.flip-card {
+	width: 300px;
+	height: 200px;
+	perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+	position: relative;
+	-moz-position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;	
+	transition: transform 0.8s;
+	-moz-transition: transform 0.8s;
+	transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+  }
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+	transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+  }
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+	position: absolute;
+	-moz-position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden; /*Safari*/
+	backface-visibility: hidden; 
+	-moz-backface-visibility: hidden;
+	font-family: 'Poppins', 'sans-serif';
+	/* text-align: justify; */
+	color: rgb(26, 69, 93);
+	font-weight: bolder; 
+  }
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+	  margin-top: 30px;
+	  font-weight: bolder; 
+  }
+  /* Style the back side */
+  .flip-card-back {  
+	color: rgb(26, 69, 93);
+	-moz-color: rgb(26, 69, 93);
+	transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	margin-top: 50px;
+	-moz-margin-top: 50px;
+	font-size: 15px;
+	font-family: 'Poppins', 'sans-serif';
+	text-align: justify;
+	
+  }
+
+/* ------------------- FIN FLIP ------------------------- */
+
+
+/*--responsive for mobile phone--*/
+@media(max-width:720px){
+	.box{
+		width: 94%;
+		height: 500px;
+	}
+	.model{
+		height:250px;
+	}
+	.details p{
+		font-size: 16px;
+		width: 250px;
+	}
+	
+}

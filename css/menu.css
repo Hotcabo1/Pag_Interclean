@@ -1,0 +1,69 @@
+/*Posicionamiento del menu*/
+
+/* MENU Tamaño, posicion, index, margenes*/
+.nav-area{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    transition: top .6s;
+    padding: -10px;
+    overflow: hidden;
+    z-index: 99;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* ICONO Tamaño, posicion, index, margenes*/
+.nav-area-icono{
+    position: fixed;
+    top: 0;
+    width: 50%;
+    box-sizing: border-box;
+    transition: top .6s;
+    overflow: hidden;
+    margin-right: 4%;
+}
+/* GIF TELEFONO Tamaño, posicion, index, margenes*/
+.nav-area-tel{
+    position: fixed;
+    top: 0%;
+    width: 60%;
+    box-sizing: border-box;
+    transition: top .6s;
+    padding: 28px 1px 1px 13px;
+    overflow: hidden;
+    z-index: 999;
+    margin-left: 4%;
+}
+
+
+/*wrapper del menu*/
+.menu-wrapper nav{
+    float:right;
+}
+
+.menu-wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*Animacion de ocultamiento*/
+.nav-area.animate{
+    top: -180px
+}
+
+.nav-area-icono.animate,
+.nav-area-tel.animate{
+    top: -180px
+}
+
+/*Complemento y movimiento del menu hacia arriba y abajo*/
+
+.nav-area.sticky,
+.nav-area-icono.sticky,
+.nav-area-tel.sticky{
+    top:0;
+    z-index: 99;
+}
+

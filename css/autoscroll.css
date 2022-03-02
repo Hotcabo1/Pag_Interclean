@@ -1,0 +1,43 @@
+
+.menu {
+    background-color: rgb(98, 98, 98);
+    background-color: transparent;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+/* 
+
+
+
+#sec-2 {
+    background-color:greenyellow;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+#sec-3 {
+    background-color:darkblue; 
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+#sec-4 {
+    background-color: brown;
+    height: 120vh;
+    width: 100%;
+    overflow: hidden;
+}
+#sec-5 {
+    background-color:orangered;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+#sec-6 {
+    background-color:grey;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+} */

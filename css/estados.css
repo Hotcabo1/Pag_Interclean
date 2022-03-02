@@ -1,0 +1,13 @@
+#tilt {
+  display: block;
+  height: 190px;
+  width: 280px;
+  position: absolute;
+  margin-top: 380px;
+  background-image: url(../img/32estados.PNG);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-left: 120px;
+}
+
+
